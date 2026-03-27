@@ -10,16 +10,22 @@ This repository is a collection of machine learning notebooks covering different
 
 ## Repository Structure
 
-- `CREDIT SCORING MODEL.ipynb`
-- `image-recognition.ipynb`
-- `twitter-sentiment-analysis.ipynb`
-- `twitter_training.csv`
-- `twitter_validation.csv`
+- `CREDIT SCORING MODEL.ipynb` — tabular credit-risk modeling workflow
+- `image-recognition.ipynb` — image classification experiments
+- `twitter-sentiment-analysis.ipynb` — NLP sentiment classification
+- `twitter_training.csv` — training dataset for sentiment notebook
+- `twitter_validation.csv` — validation dataset for sentiment notebook
 
-## Notes
+## Quick Start
 
-- The Twitter CSV files are currently committed in the root.
-- For long-term maintenance, consider moving datasets to `data/` and keeping notebooks in `notebooks/`.
+1. Create a Python 3.10+ environment.
+2. Install notebook dependencies (`numpy`, `pandas`, `scikit-learn`, `tensorflow`, `matplotlib`, `seaborn`).
+3. Open the notebooks in Jupyter/VS Code and run cells in order.
+
+## Dataset and Organization Notes
+
+- The Twitter CSV files are intentionally kept here to run the sentiment notebook directly.
+- As a future cleanup step, you can move datasets to `data/` and notebooks to `notebooks/`.
 
 ## Suggested Future Rename
 
