@@ -9,8 +9,8 @@ Datasets used by notebooks are organized under `data/raw/`.
 
 ## Additional expected datasets
 
-- `data/raw/credit-score/train.csv` for `CREDIT SCORING MODEL.ipynb`
-- `data/raw/weather-dataset/dataset/` image directory for `image-recognition.ipynb`
+- `data/raw/credit-score/train.csv` for `notebooks/credit-scoring-model.ipynb`
+- `data/raw/weather-dataset/dataset/` image directory for `notebooks/image-recognition.ipynb`
 
 ## Known public sources
 

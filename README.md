@@ -36,9 +36,9 @@ powershell -ExecutionPolicy Bypass -File scripts/download_data.ps1
 
 Open notebooks in Jupyter or VS Code and run cells in order:
 
-- `CREDIT SCORING MODEL.ipynb`
-- `image-recognition.ipynb`
-- `twitter-sentiment-analysis.ipynb`
+- `notebooks/credit-scoring-model.ipynb`
+- `notebooks/image-recognition.ipynb`
+- `notebooks/twitter-sentiment-analysis.ipynb`
 
 Data files are organized under `data/raw/`.
 
@@ -56,11 +56,16 @@ ml-notebooks-collection/
 │       │   └── twitter_validation.csv
 │       ├── credit-score/
 │       └── weather-dataset/
+├── notebooks/
+│   ├── credit-scoring-model.ipynb
+│   ├── image-recognition.ipynb
+│   └── twitter-sentiment-analysis.ipynb
+├── reports/
+│   └── .gitkeep
+├── src/
+│   └── .gitkeep
 ├── scripts/
 │   └── download_data.ps1
-├── CREDIT SCORING MODEL.ipynb
-├── image-recognition.ipynb
-├── twitter-sentiment-analysis.ipynb
 ├── README.md
 ├── .gitignore
 └── LICENSE
