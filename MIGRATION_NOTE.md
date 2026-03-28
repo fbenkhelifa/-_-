@@ -1,10 +1,8 @@
 # Migration Note
 
-This repository currently serves as a mixed notebook collection.
+## Rename Status
 
-## Recommended Rename
-
-- `-_-` → `ml-notebooks-collection`
+✅ Completed: `-_-` → `ml-notebooks-collection`
 
 ## Recommended Diffusion (Split)
 
