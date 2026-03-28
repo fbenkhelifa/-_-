@@ -49,8 +49,7 @@ ml-notebooks-collection/
 ├── twitter_validation.csv
 ├── README.md
 ├── .gitignore
-├── LICENSE
-└── MIGRATION_NOTE.md
+└── LICENSE
 ```
 
 ## Limitations
