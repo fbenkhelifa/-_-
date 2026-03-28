@@ -10,6 +10,16 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
+# Data artifacts
+data/raw/weather-dataset/**
+!data/raw/weather-dataset/.gitkeep
+data/raw/credit-score/**
+!data/raw/credit-score/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+.tmp/
+*.zip
+
 # IDE
 .vscode/
 .idea/

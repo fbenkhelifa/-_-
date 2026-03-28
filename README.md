@@ -28,6 +28,8 @@ python -m venv .venv
 # Windows PowerShell
 .\.venv\Scripts\Activate.ps1
 pip install numpy pandas scikit-learn tensorflow matplotlib seaborn jupyter
+# optional: install kaggle CLI and configure ~/.kaggle/kaggle.json
+powershell -ExecutionPolicy Bypass -File scripts/download_data.ps1
 ```
 
 ## Usage
@@ -38,15 +40,27 @@ Open notebooks in Jupyter or VS Code and run cells in order:
 - `image-recognition.ipynb`
 - `twitter-sentiment-analysis.ipynb`
 
+Data files are organized under `data/raw/`.
+
+If a required dataset is missing locally, run `scripts/download_data.ps1` to bootstrap known public sources into the expected structure.
+
 ## Project structure
 
 ```text
 ml-notebooks-collection/
+├── data/
+│   ├── README.md
+│   └── raw/
+│       ├── twitter/
+│       │   ├── twitter_training.csv
+│       │   └── twitter_validation.csv
+│       ├── credit-score/
+│       └── weather-dataset/
+├── scripts/
+│   └── download_data.ps1
 ├── CREDIT SCORING MODEL.ipynb
 ├── image-recognition.ipynb
 ├── twitter-sentiment-analysis.ipynb
-├── twitter_training.csv
-├── twitter_validation.csv
 ├── README.md
 ├── .gitignore
 └── LICENSE
@@ -56,7 +70,7 @@ ml-notebooks-collection/
 
 - Notebook-centric codebase with limited modular reuse
 - No CI/test pipeline
-- Includes local dataset artifacts for direct notebook execution
+- Includes structured `data/raw/` layout for notebook inputs
 
 ## Roadmap
 
