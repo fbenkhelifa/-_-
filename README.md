@@ -1,38 +1,29 @@
 # ML Notebooks Collection
 
-## Overview
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white)
+![Notebook](https://img.shields.io/badge/notebook-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-This repository is a collection of machine learning notebooks covering different tasks:
+## What it is
 
-- credit scoring
-- image recognition
-- Twitter sentiment analysis
+A collection of exploratory machine learning notebooks across tabular, computer vision, and NLP tasks.
 
-## Repository Structure
+## Included notebooks
 
-- `CREDIT SCORING MODEL.ipynb` — tabular credit-risk modeling workflow
-- `image-recognition.ipynb` — image classification experiments
-- `twitter-sentiment-analysis.ipynb` — NLP sentiment classification
-- `twitter_training.csv` — training dataset for sentiment notebook
-- `twitter_validation.csv` — validation dataset for sentiment notebook
+- `CREDIT SCORING MODEL.ipynb`
+- `image-recognition.ipynb`
+- `twitter-sentiment-analysis.ipynb`
 
-## Quick Start
+## How to run
 
-1. Create a Python 3.10+ environment.
-2. Install notebook dependencies (`numpy`, `pandas`, `scikit-learn`, `tensorflow`, `matplotlib`, `seaborn`).
-3. Open the notebooks in Jupyter/VS Code and run cells in order.
+1. Create a Python environment.
+2. Install common ML dependencies (`numpy`, `pandas`, `scikit-learn`, `tensorflow`, `matplotlib`, `seaborn`, `jupyter`).
+3. Open notebooks in Jupyter or VS Code and run cells in order.
 
-## Dataset and Organization Notes
+## Notes
 
-- The Twitter CSV files are intentionally kept here to run the sentiment notebook directly.
-- As a future cleanup step, you can move datasets to `data/` and notebooks to `notebooks/`.
-
-## Suggested Future Rename
-
-A clearer repository name is recommended, such as:
-
-- `ml-notebooks-collection`
-- `applied-ml-notebooks`
+- This repository is learning-oriented and intentionally notebook-centric.
+- For production-style projects, see dedicated repositories such as `streamsight`.
 
 ## License
 
